@@ -41,7 +41,7 @@ module.exports = function (grunt) {
     uglify: {
       build: {
         files: [{
-          src: "build/js/script.js",
+          src: "src/script.js",
           dest: "build/js/script.js"
         }]
       }
