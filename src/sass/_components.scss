@@ -55,6 +55,13 @@
       padding: 2rem 4rem;
     }
 
+    @media only screen and (max-width: $bp-small) {
+      width: 35%;
+      padding: 2rem 4rem;
+    }
+
+
+
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
@@ -145,6 +152,11 @@
   overflow-wrap: break-word;
   margin-bottom: 8rem;
 
+  @media only screen and (max-width: $bp-smallest) {
+    width: 21rem;
+    height: 29rem;
+  }
+
 
   h3 {
     color: #fff;
@@ -160,7 +172,7 @@
     font-size: 1.8rem;
     padding: 1rem;
     text-align: center;
-    
+
   }
 
 
@@ -213,7 +225,8 @@
   opacity: .8;
 }
 
-.succes, .error {
+.succes,
+.error {
   color: #fff;
   padding: 5px;
   margin: 5px 0 15px 0;
@@ -243,39 +256,49 @@
 }
 
 .error {
-  background-color:rgb(217, 84, 79);
+  background-color: rgb(217, 84, 79);
 }
 
 .bgcolor1 {
   background-color: #5B84B1FF;
 }
+
 .bgcolor2 {
   background-color: var(--color-primary-light);
 }
-.bgcolor3{
+
+.bgcolor3 {
   background-color: #FC766AFF;
 }
+
 .bgcolor4 {
   background-color: #5F4B8BFF;
 }
+
 .bgcolor5 {
   background-color: #D64161FF;
 }
+
 .bgcolor6 {
   background-color: #00203FFF;
 }
+
 .bgcolor7 {
   background-color: #333D79FF;
 }
+
 .bgcolor8 {
   background-color: #F2AA4CFF;
 }
+
 .bgcolor9 {
   background-color: #00539CFF;
 }
+
 .bgcolor10 {
   background-color: #E94B3CFF;
 }
+
 .bgcolor11 {
   background-color: #FFE77AFF;
 }
